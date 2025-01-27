@@ -8,16 +8,32 @@
 @media screen and (min-width:570px) and (max-width:720px){
 
     .flex{
-        flex-wrap: wrap !important;
-        width: unset;
-        height: unset;
+        flex-wrap:wrap !important;
+      
     }
-        
+    .two
+    {
+        width: 40% !important;
+        height: 50%;
+    }
+    .three
+    {
+        width: 31% !important;
+        height: 50%
+    }
+.one1{
+    width: 23% !important;
+    height: 50%;
+}
     }
     @media screen and (min-width:720px) and (max-width:1200px){
 
         .flex{
             flex-wrap: wrap!important;
+            width: 40%;
+        height: unset;
+        padding: unset !important;
+        margin: unset !important;
         }
             
         }
